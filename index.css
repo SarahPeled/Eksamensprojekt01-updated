@@ -370,6 +370,25 @@ footer {
     background-color: #202020;
 }
 
+#scroll-top-button:hover {
+    filter: drop-shadow(0 0px 15px rgba(65, 183, 247, 0.8));}
+
+#scroll-top {
+    position: relative;
+    bottom: 0px;
+    right: -650px;
+}
+
+#scroll-top-button {
+    border: solid #1bb9e5;
+    border-width: 0 2px 2px 0;
+    width: 20px;
+    height: 20px;
+    margin: -4px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
 
 
 @media screen and (max-width: 868px) {
