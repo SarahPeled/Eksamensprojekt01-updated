@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
     #scroll-animation {
-        float: right;
         position: absolute;
+        bottom: 60px;
+        right: 60px;
     }
 
     #arrow1, #arrow2, #arrow3{
