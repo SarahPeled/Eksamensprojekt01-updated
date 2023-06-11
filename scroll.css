@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+    #scroll-animation {
+        float: right;
+        position: absolute;
+    }
+
+    #arrow1, #arrow2, #arrow3{
+        border: solid #b1b0b0;
+        border-width: 0 2px 2px 0;
+        width: 20px;
+        height: 20px;
+        margin: -4px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        animation-name: arrows-down;
+        animation-delay: 1s;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+    }
+
+    #arrow1 {
+        animation-delay: 0s;
+    }
+
+    #arrow2 {
+        animation-delay: 0.5s;
+    }
+
+    #arrow3 {
+        animation-delay: 1s;
+    }
+    
+    @keyframes arrows-down{
+        0%{
+            opacity: 0;
+        }
+        40%{
+            opacity: 1;
+        }
+        90%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
