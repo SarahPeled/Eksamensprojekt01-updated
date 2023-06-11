@@ -374,9 +374,8 @@ footer {
     filter: drop-shadow(0 0px 15px rgba(65, 183, 247, 0.8));}
 
 #scroll-top {
-    position: relative;
-    bottom: 0px;
-    right: -650px;
+    position: absolute;
+    right: 60px;
 }
 
 #scroll-top-button {
