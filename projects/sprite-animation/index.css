@@ -1,0 +1,14 @@
+.sprite {
+    width: 700px;
+    height: 700px;
+    background: url(animationreal2.png) 0 0 no-repeat;
+    animation: reveal 1.5s steps(5) infinite;
+}
+
+@keyframes reveal {
+0%
+    {background-position: 0px;}
+100%
+    {background-position: -3500px;}
+}
+

@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: #ff0040;
+    animation-name: move-box;
+    animation-duration: 6s;
+    animation-delay: 1s;
+}
+
+@keyframes move-box{
+    0%{
+        transform: translateX(0px) translateY(0px) rotate(0deg);
+        background-color:#ff0040;
+    }
+    25%{
+        transform: translateX(1100px) translateY(0px) rotate(90deg);
+        background-color:#eaff00;
+    }
+    50%{
+        transform: translateX(1100px) translateY(550px) rotate(180deg);
+        background-color:#00ff48;
+    }
+    75%{
+        transform: translateX(0px) translateY(550px) rotate(270deg);
+        background-color:#8400ff;
+    }
+    100%{
+        transform: translateX(0px) translateY(0px) rotate(360deg);
+        background-color:#ff0040;
+    }
+}
+
+#box2 {
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    animation-name: move-box2;
+    animation-duration: 6s;
+    animation-delay: 1s;
+}
+
+@keyframes move-box2{
+    0%{
+        transform: translateX(0px) translateY(0px);
+    }
+    25%{
+        transform: translateX(0px) translateY(500px);
+    }
+    50%{
+        transform: translateX(1100px) translateY(500px);
+    }
+    75%{
+        transform: translateX(1100px) translateY(0px);
+    }
+    100%{
+        transform: translateX(0px) translateY(0px);
+    }
+}
