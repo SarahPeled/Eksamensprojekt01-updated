@@ -256,12 +256,36 @@ a:hover {
     justify-content: center;
     padding: 10px 10px;
     margin: 10px;
+    position: relative;
 }
 
 .skill-icon > img {
     height: 60px;
     width: auto;
     align-self: center;
+}
+
+.skill-overlay {
+    background-color: rgba(27,185,229,0.9);
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 8%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    opacity: 0;
+}
+
+.skill-overlay:hover {
+    opacity: 1;
+    transition: ease 0.25s;
 }
 /*ICONS END*/
 
